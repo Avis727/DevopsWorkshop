@@ -32,3 +32,7 @@ def test_divide_by_zero():
 def test_percentage():
     assert percentage(50, 200) == 25.0
     assert percentage(1, 4) == 25.0
+
+def power():
+    assert power(0, 2) == 1
+    assert power(4, 2) == 16
